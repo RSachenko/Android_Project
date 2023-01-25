@@ -124,11 +124,12 @@
         android:backgroundTint="@color/white"
         android:outlineSpotShadowColor="@color/white"
         android:text="@string/forgot_password"
-        android:textColor="#2E7D32"
+        android:textColor="@color/yellow"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        tools:ignore="TextContrastCheck"
         tools:targetApi="p" />
 
     <com.google.android.material.button.MaterialButton
@@ -187,6 +188,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="TextContrastCheck"
         tools:targetApi="p" />
 
 
